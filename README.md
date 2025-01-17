@@ -26,5 +26,5 @@ In the transform stage, we will process the data using Pandas. Follow these inst
 At this stage, the processed data is saved to other data storage such as the PostgreSQL database. Follow these instructions:
 1. Create a PostgreSQL database according to the csv data that we have processed. Adjust the columns and data types to the existing data.
 2. If normalization is needed, then do normalization
-3. Input the csv data into the PostgreSQL database (you can use the method as in Graded Challenge 1).
+3. Input the csv data into the PostgreSQL database
 4. The load stage is carried out in the .sql file and run in pgadmin.
