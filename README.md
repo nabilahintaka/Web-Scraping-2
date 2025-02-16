@@ -1,8 +1,6 @@
-# Web Scraping - Portofolio
+# ETL Web Scraping - Portofolio
 
-Welcome to my Data Analyst Portfolio! I am a data analyst with experience in using various tools and technologies. I am proficient in data tools such as Python, SQL, BigQuery, Excel, Power BI, Tableau and Looker Studio.
-
-This is a repository to showcase my data analytics skills and projects that i get during my studies using Jupyter Notebook
+Welcome to my Portfolio! This project focuses on building a data pipeline to scrape data from a retail-related website, clean and process the data, and load it into a PostgreSQL database for storage and future analysis.
 
 ---
 
@@ -10,9 +8,9 @@ This is a repository to showcase my data analytics skills and projects that i ge
 You are a Data Engineer working on a data pipeline/ETL project. Your job is to take data from a website, then process it and store it in a PostgreSQL database. Follow the instructions below:
 
 ## A. Extract
-The first stage in the data pipeline is `Extract`. In this process, you are asked to retrieve data from the source website page using web scraping with the following provisions:
-1. The website page is free as long as it is themed as a retail website (e-commerce, online store, etc.). *Consult the instructor first in selecting the website*
-2. Data is retrieved using the web scraping method created in a notebook file (.ipynb).
+The first stage in the data pipeline is `Extract`. In this process, i retrieve data from the source website page using web scraping with the following provisions:
+1. The website page is themed as a retail website (e-commerce, online store, etc.).
+2. Data is retrieved using the web scraping method
 3. The amount of data retrieved is at least 50 rows of data and 4 columns.
 
 ## B. Transform
@@ -28,3 +26,6 @@ At this stage, the processed data is saved to other data storage such as the Pos
 2. If normalization is needed, then do normalization
 3. Input the csv data into the PostgreSQL database
 4. The load stage is carried out in the .sql file and run in pgadmin.
+
+# Conclusion
+This ETL project showcases the end-to-end process of extractiong, transforming, and loading data into a database system
