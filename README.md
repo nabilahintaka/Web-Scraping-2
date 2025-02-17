@@ -1,5 +1,5 @@
 # ETL Web Scraping
-Welcome to my Portfolio! This project focuses on building a data pipeline to scrape data from a retail-related website, clean and process the data, and load it into a PostgreSQL database for storage and future analysis.
+This project focuses on building a data pipeline to scrape data from a retail-related website, clean and process the data, and load it into a PostgreSQL database for storage and future analysis.
 
 ---
 
